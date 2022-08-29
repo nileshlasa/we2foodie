@@ -42,6 +42,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -224,6 +226,10 @@ a:focus {
   a {
     margin: 0 10px;
   }
+  .mob_number{
+	 color: $white;
+	
+}
 
   .user_link {
     color: $white;
@@ -234,6 +240,7 @@ a:focus {
 
     }
   }
+  
 
   .cart_link {
     display: flex;
@@ -314,6 +321,8 @@ a:focus {
 
   }
 }
+
+
 
 /*end header section*/
 
