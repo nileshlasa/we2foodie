@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <div th:insert="fragments/header.html :: header-files"></div> 
+
+</head>
+
+<body class="sub_page">
+
+  
+  <div th:insert="fragments/Header_Menu_About.html :: head"></div>   
+
+  <!-- food section -->
+
+ <div th:insert="fragments/Menu_Items.html :: food_items"></div>
+
+  <!-- end food section -->
+
+  <!-- footer section -->
+  <div th:insert="fragments/footer.html ::footer"></div>
+  <!-- footer section -->
+
+<div th:insert="fragments/scripts.html ::script_location"></div>
+
+</body>
+
+</html>
