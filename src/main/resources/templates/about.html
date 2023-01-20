@@ -11,21 +11,21 @@
   </div>
 
   <!-- about section -->
-
+<div th:fragment="about_section">
   <section class="about_section layout_padding">
     <div class="container  ">
 
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/about.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Fodie
+                We Are Foodie
               </h2>
             </div>
             <p>
@@ -42,11 +42,11 @@
       </div>
     </div>
   </section>
-
+</div>
   <!-- end about section -->
 
   <!-- footer section -->
-  <footer class="footer_section">
+ <!-- <footer class="footer_section">
     <div class="container">
       <div class="row">
         <div class="col-md-4 footer-col">
@@ -124,7 +124,8 @@
         </p>
       </div>
     </div>
-  </footer>
+  </footer>-->
+  <div th:insert="fragments/footer.html ::footer"></div>
   <!-- footer section -->
 
   <!-- jQery -->

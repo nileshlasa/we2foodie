@@ -1,0 +1,8 @@
+"id";"email";"name";"mobile";"address";"password";"role"
+2;"yogeshjajal.91@gmail.com";"Yogesh Jajal";"9096469246";"";"$2a$10$5rkj3KGKcWWUHF1pvDtV/.0B1JtLpzz5j9rp4NKH4CwauXOtkoYHu";"ROLE_ADMIN"
+3;"lasankar.nilesh@gmail.com";"NIlesh Lasankar";"9175276252";"";"$2a$10$5rkj3KGKcWWUHF1pvDtV/.0B1JtLpzz5j9rp4NKH4CwauXOtkoYHu";"ROLE_ADMIN"
+4;"umesh.meshram@gmail.com";"Umesh Meshram";"7845129865";"";"$2a$10$5rkj3KGKcWWUHF1pvDtV/.0B1JtLpzz5j9rp4NKH4CwauXOtkoYHu";"ROLE_ADMIN"
+5;"nilesh.lasankar@gmail.com";"sfdtgdsfg";"7898456210";"";"$2a$10$5rkj3KGKcWWUHF1pvDtV/.0B1JtLpzz5j9rp4NKH4CwauXOtkoYHu";"ROLE_ADMIN"
+6;"vision.ninawe@gmail.com";"Ashish Ninawe";"9579935900";"";"Ninawe@123";"ROLE_ADMIN"
+7;"amol.lasankar@gmail.com";"Amol Lasankar";"9579143675";"";"Nilesh@123";"ROLE_NORMAL"
+8;"RHR@gmail.com";"Rangnath Rathod";"7845129865";"";"$2a$10$hlcFpaktsnB9qvlapX0ydeMr.lHIwPt9DYiLvWdKUJ8keXB/1n5sS";"ROLE_NORMAL"

@@ -1,5 +1,21 @@
 // to get current year
-
+function UpdateMenuItemForm(){
+	
+	const menudiv= document.getElementById("list-home");
+	const menudiv2= document.getElementById("list-menu-change");
+	menudiv.innerHTML=menudiv2.innerHTML;
+}
+ 
+ function ResetDefaultForm()
+ {
+	const menudiv= document.getElementById("list-home");
+	const menudiv2= document.getElementById("list-home-menu");
+	menudiv.innerHTML=menudiv2.innerHTML;
+}
+ 
+ 
+ 
+ 
  function VerifyPassword()
   {
 	
@@ -39,10 +55,21 @@ $(window).on('load', function () {
 	 
 
     $('.filters_menu li').click(function () {
+         var classList = $(this).attr("class");
+        var classArr = classList.split(/\s+/);
         $('.filters_menu li').removeClass('active');
         $(this).addClass('active');
         
-
+      
+        
+        $.each(classArr, function(index,value){
+       if(value=="modak" || value=="All"){
+	$('.HideModak').show();
+       }else{
+	$('.HideModak').hide();
+}
+   
+});
        
 		
 

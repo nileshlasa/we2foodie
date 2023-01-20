@@ -3,16 +3,16 @@
 <head>
  <div th:insert="fragments/header.html :: header-files"></div> 
  
- 
+<link rel="icon" type="image/png" th:href="@{/images/favicon.png}"/>
   </head>
 
 <body>
 
 <div th:insert="fragments/carausel.html :: carausel-files"></div> 
    
-  <!-- offer section -->
+<!--  <!-- offer section -->
 
-  <section class="offer_section layout_padding-bottom">
+  <!--<section class="offer_section layout_padding-bottom">
     <div class="offer_container">
       <div class="container ">
         <div class="row">
@@ -74,33 +74,36 @@
           </div>
         </div>
       </div>
+      
     </div>
-  </section>
+  </section>-->
 
-  <!-- end offer section -->
+  <!-- end offer section -->-->
 
   <!-- food section -->
 
 <div th:insert="fragments/Menu_Items.html :: food_items"></div>
-
+<div th:insert="About.html :: about_section"></div>
   <!-- end food section -->
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+ <!-- <section class="about_section layout_padding">
+ 
+ 
     <div class="container  ">
 
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/about.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We 2 Are Foodies
+                We Are Foodies
               </h2>
             </div>
             <p>
@@ -108,15 +111,16 @@
               in some form, by injected humour, or randomised words which don't look even slightly believable. If you
               are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
               the middle of text. All
+            
             </p>
-            <a href="about">
+            <a href="about.html">
               Read More
             </a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- end about section -->
 
@@ -187,7 +191,7 @@
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
         <h2>
-          What Says Our Customers
+          Customer's Reviews
         </h2>
       </div>
       <div class="carousel-wrap row ">

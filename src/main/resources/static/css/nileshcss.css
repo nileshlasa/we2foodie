@@ -1,0 +1,35 @@
+html {
+    height:100%;
+    width:100%;
+}
+.leftsideMenu{
+	
+	height:500px;
+	width:15%;
+	background-color:#F9F6EE;
+	box-shadow: 10px;;
+}
+.leftsideMenu a:hover{
+	background-color: orange;
+}
+.navbar {
+    padding-top: 0 ;
+    padding-bottom: 0 ;
+ }
+ 
+ .MenuInboxLeft{
+	display:block;
+	margin-bottom:5px;
+}
+.inboxMain{
+	height:500px;
+}
+
+.footer-info span{
+	color:red;
+}
+.placeholderclass{
+	height:100px;
+	width:100px;
+	border:1px solid red;
+}

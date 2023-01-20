@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <div th:fragment="food_items">
-  <section class="food_section layout_padding-bottom">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our Menu
-        </h2>
-      </div>
+	<section class="food_section layout_padding-bottom">
+		<div class="container">
+			<div class="heading_container heading_center">
+				<h2>
+					Our Menu
+				</h2>
+			</div>
 
-      <ul class="filters_menu">
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".momos">Momos</li>
-        <li data-filter=".modak">Modak</li>
-        <li data-filter=".maggie">Maggie</li>
-        <li data-filter=".chakali">Chakali</li>
-        <li data-filter=".panipuri">Panipuri</li>
-      </ul>
+			<ul class="filters_menu">
+				<li class="active All" data-filter="*">All</li>
+				<li class="modak" data-filter=".modak">Modak</li>
+				<li class="momos" data-filter=".momos">Momos</li>
+				<li class="chakali" data-filter=".chakali">Chakali</li>
+				<li class="wadapav" data-filter=".wadapav">Wadapav</li>
+			</ul>
 
-      <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all momos">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Momos.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Momos
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $20
-                    </h6>
-<a href="">
+
+			<div class="filters-content">
+				<div class="row HideModak">
+					<div class="col-sm-2 col-lg-3">
+							
+					</div>
+					<div class="col-sm-6 col-lg-6 all modak">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Momos.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Delicious Momos
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹20
+										</h6>
+										<!--<a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -49,30 +53,36 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all modak">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Modak.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Devine Modaks
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $15
-                    </h6>
-<a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-lg-3">
+						
+					</div>
+				<div class="row grid">
+					<div class="col-sm-6 col-lg-4 all momos">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Modak.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Devine Modaks
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹15
+										</h6>
+										<!--<a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -84,30 +94,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all chakali">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/chakali.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Crispy Chakali
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $17
-                    </h6>
-                   <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all chakali">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/chakali.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Crispy Chakali
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹17
+										</h6>
+										<!--  <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -119,30 +130,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all maggie">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Masala Maggi.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Masala Maggi
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $18
-                    </h6>
-                   <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all maggie">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Masala Maggi.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Masala Maggi
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹18
+										</h6>
+										<!--   <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -154,30 +166,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all panipuri">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/PaniPuri.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Pani puri
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $10
-                    </h6>
-                 <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all panipuri">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/PaniPuri.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Pani puri
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹10
+										</h6>
+										<!--   <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -189,30 +202,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all momos">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Cheese-Momos.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Cheese Momos
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $15
-                    </h6>
-                    <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all momos">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Cheese-Momos.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Cheese Momos
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹15
+										</h6>
+										<!--   <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -224,30 +238,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all momos">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Fried_Momos.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Fried Momos
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $12
-                    </h6>
-                   <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all momos">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Fried_Momos.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Fried Momos
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹12
+										</h6>
+										<!--     <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -259,30 +274,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all maggie">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/Plain_Maggie.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Quick Plain Maggi
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $14
-                    </h6>
-                   <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all maggie">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/Plain_Maggie.jpg" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Quick Plain Maggi
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹14
+										</h6>
+										<!--    <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -294,30 +310,31 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f9.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pasta
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $10
-                    </h6>
-                    <a href="">
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 all wadapav">
+						<div class="box">
+							<div>
+								<div class="img-box">
+									<img src="images/f9.png" alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										Delicious Pasta
+									</h5>
+									<p>
+										Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+										voluptatem repellendus sed eaque
+									</p>
+									<div class="options">
+										<h6>
+											₹10
+										</h6>
+										<!--     <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                         <g><g> <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
@@ -329,19 +346,20 @@
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                           </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                            </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="/menu.html">
-          View More
-        </a>
-      </div>
-    </div>
-  </section>
-  </div>
+                    </a>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="print"></div>
+			<div class="btn-box">
+				<a href="/menu.html">
+					View More
+				</a>
+			</div>
+		</div>
+	</section>
+</div>

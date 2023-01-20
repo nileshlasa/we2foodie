@@ -7,11 +7,15 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.GeneratorType;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Setter
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class User {
 	
@@ -22,7 +26,7 @@ public class User {
 	public String mobile;
 	public String email;
 	public String password;
-	public char role='2';
+	public String role="ROLE_ADMIN";
 	public String address;
 	
 
